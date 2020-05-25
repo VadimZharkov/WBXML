@@ -8,8 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		DDA26071247BA5AE0003E57E /* WBXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA26067247BA5AE0003E57E /* WBXML.framework */; };
-		DDA26076247BA5AE0003E57E /* WBXMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26075247BA5AE0003E57E /* WBXMLTests.swift */; };
+		DDA26076247BA5AE0003E57E /* WBXMLSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26075247BA5AE0003E57E /* WBXMLSerializerTests.swift */; };
 		DDA26078247BA5AE0003E57E /* WBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA2606A247BA5AE0003E57E /* WBXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA26082247BA68E0003E57E /* WBXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26081247BA68E0003E57E /* WBXML.swift */; };
+		DDA26083247BA68E0003E57E /* WBXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26081247BA68E0003E57E /* WBXML.swift */; };
+		DDA26086247BA6FB0003E57E /* WBXMLCodePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26085247BA6FB0003E57E /* WBXMLCodePage.swift */; };
+		DDA26087247BA6FB0003E57E /* WBXMLCodePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26085247BA6FB0003E57E /* WBXMLCodePage.swift */; };
+		DDA26089247BA7300003E57E /* WBXMLErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26088247BA7300003E57E /* WBXMLErrors.swift */; };
+		DDA2608A247BA7300003E57E /* WBXMLErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26088247BA7300003E57E /* WBXMLErrors.swift */; };
+		DDA2608C247BA7780003E57E /* WBXMLSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2608B247BA7780003E57E /* WBXMLSerializer.swift */; };
+		DDA2608D247BA7780003E57E /* WBXMLSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2608B247BA7780003E57E /* WBXMLSerializer.swift */; };
+		DDA26091247BA81F0003E57E /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26090247BA81F0003E57E /* Deque.swift */; };
+		DDA26092247BA81F0003E57E /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26090247BA81F0003E57E /* Deque.swift */; };
+		DDA26095247BA8A70003E57E /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26094247BA8A70003E57E /* Logging.swift */; };
+		DDA26096247BA8A70003E57E /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26094247BA8A70003E57E /* Logging.swift */; };
+		DDA26099247BA9880003E57E /* DataOutputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26097247BA9880003E57E /* DataOutputStream.swift */; };
+		DDA2609A247BA9880003E57E /* DataOutputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26097247BA9880003E57E /* DataOutputStream.swift */; };
+		DDA2609B247BA9880003E57E /* DataInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26098247BA9880003E57E /* DataInputStream.swift */; };
+		DDA2609C247BA9880003E57E /* DataInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA26098247BA9880003E57E /* DataInputStream.swift */; };
+		DDA2609F247BAA400003E57E /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2609E247BAA400003E57E /* Shift.swift */; };
+		DDA260A0247BAA400003E57E /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2609E247BAA400003E57E /* Shift.swift */; };
+		DDA260A2247BAB130003E57E /* CodePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA260A1247BAB130003E57E /* CodePage.swift */; };
+		DDA260A4247BACCA0003E57E /* WBXMLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA260A3247BACCA0003E57E /* WBXMLParserTests.swift */; };
+		DDA260A6247BACE30003E57E /* WBXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA260A5247BACE30003E57E /* WBXMLParser.swift */; };
+		DDA260A7247BAE740003E57E /* WBXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA260A5247BACE30003E57E /* WBXMLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +49,20 @@
 		DDA2606A247BA5AE0003E57E /* WBXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBXML.h; sourceTree = "<group>"; };
 		DDA2606B247BA5AE0003E57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA26070247BA5AE0003E57E /* WBXMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBXMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA26075247BA5AE0003E57E /* WBXMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBXMLTests.swift; sourceTree = "<group>"; };
+		DDA26075247BA5AE0003E57E /* WBXMLSerializerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBXMLSerializerTests.swift; sourceTree = "<group>"; };
 		DDA26077247BA5AE0003E57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA26081247BA68E0003E57E /* WBXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBXML.swift; sourceTree = "<group>"; };
+		DDA26085247BA6FB0003E57E /* WBXMLCodePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBXMLCodePage.swift; sourceTree = "<group>"; };
+		DDA26088247BA7300003E57E /* WBXMLErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBXMLErrors.swift; sourceTree = "<group>"; };
+		DDA2608B247BA7780003E57E /* WBXMLSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBXMLSerializer.swift; sourceTree = "<group>"; };
+		DDA26090247BA81F0003E57E /* Deque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
+		DDA26094247BA8A70003E57E /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		DDA26097247BA9880003E57E /* DataOutputStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataOutputStream.swift; sourceTree = "<group>"; };
+		DDA26098247BA9880003E57E /* DataInputStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInputStream.swift; sourceTree = "<group>"; };
+		DDA2609E247BAA400003E57E /* Shift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		DDA260A1247BAB130003E57E /* CodePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePage.swift; sourceTree = "<group>"; };
+		DDA260A3247BACCA0003E57E /* WBXMLParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBXMLParserTests.swift; sourceTree = "<group>"; };
+		DDA260A5247BACE30003E57E /* WBXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBXMLParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +105,12 @@
 		DDA26069247BA5AE0003E57E /* WBXML */ = {
 			isa = PBXGroup;
 			children = (
+				DDA26084247BA6D80003E57E /* Helpers */,
+				DDA260A5247BACE30003E57E /* WBXMLParser.swift */,
+				DDA2608B247BA7780003E57E /* WBXMLSerializer.swift */,
+				DDA26088247BA7300003E57E /* WBXMLErrors.swift */,
+				DDA26085247BA6FB0003E57E /* WBXMLCodePage.swift */,
+				DDA26081247BA68E0003E57E /* WBXML.swift */,
 				DDA2606A247BA5AE0003E57E /* WBXML.h */,
 				DDA2606B247BA5AE0003E57E /* Info.plist */,
 			);
@@ -80,10 +120,56 @@
 		DDA26074247BA5AE0003E57E /* WBXMLTests */ = {
 			isa = PBXGroup;
 			children = (
-				DDA26075247BA5AE0003E57E /* WBXMLTests.swift */,
+				DDA260A1247BAB130003E57E /* CodePage.swift */,
+				DDA260A3247BACCA0003E57E /* WBXMLParserTests.swift */,
+				DDA26075247BA5AE0003E57E /* WBXMLSerializerTests.swift */,
 				DDA26077247BA5AE0003E57E /* Info.plist */,
 			);
 			path = WBXMLTests;
+			sourceTree = "<group>";
+		};
+		DDA26084247BA6D80003E57E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DDA2609D247BAA1C0003E57E /* Operator */,
+				DDA26093247BA87D0003E57E /* Logging */,
+				DDA2608F247BA7F10003E57E /* DataStream */,
+				DDA2608E247BA7D50003E57E /* Collection */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DDA2608E247BA7D50003E57E /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				DDA26090247BA81F0003E57E /* Deque.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		DDA2608F247BA7F10003E57E /* DataStream */ = {
+			isa = PBXGroup;
+			children = (
+				DDA26098247BA9880003E57E /* DataInputStream.swift */,
+				DDA26097247BA9880003E57E /* DataOutputStream.swift */,
+			);
+			path = DataStream;
+			sourceTree = "<group>";
+		};
+		DDA26093247BA87D0003E57E /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				DDA26094247BA8A70003E57E /* Logging.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		DDA2609D247BAA1C0003E57E /* Operator */ = {
+			isa = PBXGroup;
+			children = (
+				DDA2609E247BAA400003E57E /* Shift.swift */,
+			);
+			path = Operator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +234,7 @@
 				TargetAttributes = {
 					DDA26066247BA5AE0003E57E = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					DDA2606F247BA5AE0003E57E = {
 						CreatedOnToolsVersion = 11.5;
@@ -195,6 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA2608C247BA7780003E57E /* WBXMLSerializer.swift in Sources */,
+				DDA26095247BA8A70003E57E /* Logging.swift in Sources */,
+				DDA26099247BA9880003E57E /* DataOutputStream.swift in Sources */,
+				DDA26086247BA6FB0003E57E /* WBXMLCodePage.swift in Sources */,
+				DDA2609F247BAA400003E57E /* Shift.swift in Sources */,
+				DDA26082247BA68E0003E57E /* WBXML.swift in Sources */,
+				DDA26091247BA81F0003E57E /* Deque.swift in Sources */,
+				DDA2609B247BA9880003E57E /* DataInputStream.swift in Sources */,
+				DDA26089247BA7300003E57E /* WBXMLErrors.swift in Sources */,
+				DDA260A6247BACE30003E57E /* WBXMLParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +299,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA26076247BA5AE0003E57E /* WBXMLTests.swift in Sources */,
+				DDA260A7247BAE740003E57E /* WBXMLParser.swift in Sources */,
+				DDA2609C247BA9880003E57E /* DataInputStream.swift in Sources */,
+				DDA2609A247BA9880003E57E /* DataOutputStream.swift in Sources */,
+				DDA260A2247BAB130003E57E /* CodePage.swift in Sources */,
+				DDA26087247BA6FB0003E57E /* WBXMLCodePage.swift in Sources */,
+				DDA26083247BA68E0003E57E /* WBXML.swift in Sources */,
+				DDA260A0247BAA400003E57E /* Shift.swift in Sources */,
+				DDA26092247BA81F0003E57E /* Deque.swift in Sources */,
+				DDA26096247BA8A70003E57E /* Logging.swift in Sources */,
+				DDA2608D247BA7780003E57E /* WBXMLSerializer.swift in Sources */,
+				DDA26076247BA5AE0003E57E /* WBXMLSerializerTests.swift in Sources */,
+				DDA2608A247BA7300003E57E /* WBXMLErrors.swift in Sources */,
+				DDA260A4247BACCA0003E57E /* WBXMLParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +449,7 @@
 		DDA2607C247BA5AE0003E57E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Q32N956KHX;
@@ -356,6 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vzharkov.WBXML;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +475,7 @@
 		DDA2607D247BA5AE0003E57E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Q32N956KHX;
@@ -388,6 +500,7 @@
 		DDA2607F247BA5AE0003E57E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q32N956KHX;
 				INFOPLIST_FILE = WBXMLTests/Info.plist;
@@ -406,6 +519,7 @@
 		DDA26080247BA5AE0003E57E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q32N956KHX;
 				INFOPLIST_FILE = WBXMLTests/Info.plist;
